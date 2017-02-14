@@ -4,16 +4,14 @@ What up, I'm Jordan Price; I get down on code just like everyone else around her
 
     { "hip" : "...", "hip" : "..." }
     
-## express-chatrooms
-
-Github: https://github.com/thejordanprice/express-chatrooms
-
+[express-chatrooms](https://github.com/thejordanprice/express-chatrooms)
+ 
 Description: Muh small chat app written in node.js with express/mongoose and a ton of other middleware. Comes with single sign on and a few other features. Pretty lightweight. Seems to be pretty simple to use; I should probably continue coding this one.
+
 ![Screenshot](http://i.imgur.com/tNyeEIH.png)
 
-## electron-steam-status
+[electron-steam-status](https://github.com/thejordanprice/electron-steam-status)
 
-Github: https://github.com/thejordanprice/electron-steam-status
-
+Github:
 Description: Steam; the world largest PC gaming avenue occassionally goes down. This will constantly pull detailed stats of the top games and what amount of the Steam servers are online.
 ![Screenshot](http://i.imgur.com/8GHK2zC.png)
