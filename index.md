@@ -5,6 +5,8 @@ What up, I'm Jordan Price; I get down on code just like everyone else around her
     { "hip" : "...", "hip" : "..." }
     
 [express-chatrooms](https://github.com/thejordanprice/express-chatrooms)
+
+![Screenshot](http://i.imgur.com/PD6HiYe.jpg)
  
 Description: Muh small chat app written in node.js with express/mongoose and a ton of other middleware. Comes with single sign on and a few other features. Pretty lightweight. Seems to be pretty simple to use; I should probably continue coding this one.
 
