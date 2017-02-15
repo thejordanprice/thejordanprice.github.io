@@ -8,10 +8,8 @@ What up, I'm Jordan Price; I get down on code just like everyone else around her
  
 Description: Muh small chat app written in node.js with express/mongoose and a ton of other middleware. Comes with single sign on and a few other features. Pretty lightweight. Seems to be pretty simple to use; I should probably continue coding this one.
 
-![Screenshot](http://i.imgur.com/tNyeEIH.png)
-
 [electron-steam-status](https://github.com/thejordanprice/electron-steam-status)
 
-Description: Steam; the world largest PC gaming avenue occassionally goes down. This will constantly pull detailed stats of the top games and what amount of the Steam servers are online.
+[Download](https://github.com/thejordanprice/electron-steam-status/blob/master/Steam%20Status%20Setup%200.0.2.exe)
 
-![Screenshot](http://i.imgur.com/8GHK2zC.png)
+Description: Steam; the world largest PC gaming avenue occassionally goes down. This will constantly pull detailed stats of the top games and what amount of the Steam servers are online.
