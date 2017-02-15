@@ -10,6 +10,6 @@ Description: Muh small chat app written in node.js with express/mongoose and a t
 
 [electron-steam-status](https://github.com/thejordanprice/electron-steam-status)
 
-[Download](https://github.com/thejordanprice/electron-steam-status/blob/master/Steam%20Status%20Setup%200.0.2.exe)
+[Latest Build](https://github.com/thejordanprice/electron-steam-status/blob/master/latest)
 
 Description: Steam; the world largest PC gaming avenue occassionally goes down. This will constantly pull detailed stats of the top games and what amount of the Steam servers are online.
