@@ -14,7 +14,7 @@ Description: Muh small chat app written in node.js with express/mongoose and a t
 
 * * *
 
-### [electron-steam-status](https://github.com/thejordanprice/steam-status)
+### [steam-status](https://github.com/thejordanprice/steam-status)
 
 ![Screenshot](https://i.imgur.com/HfPw9Tp.png)
 
