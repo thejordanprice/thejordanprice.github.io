@@ -6,8 +6,6 @@ I get down on code.
     
 * * *
 
-
-
 ### [p2pspider](https://github.com/thejordanprice/p2pspider)
 
 ![Screenshot](http://i.imgur.com/Qhae4So.jpg)
