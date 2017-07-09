@@ -6,7 +6,7 @@ I get down on code.
     
 * * *
 
-https://i.imgur.com/MdqTA6d.png
+
 
 ### [p2pspider](https://github.com/thejordanprice/p2pspider)
 
