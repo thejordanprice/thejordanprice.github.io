@@ -12,9 +12,9 @@ I get down on code.
 
 Description: Multiple daemon(s) that scrape the p2p dht swarm also an express based bootstrapped front-end connected to the same mongodb service.
 
-### [steam-status](https://github.com/thejordanprice/steam-status)
+### [steam-status](https://thejordanprice.github.io/steam-status)
 
-![Screenshot](https://i.imgur.com/LflN47x.png)
+![Screenshot](https://i.imgur.com/0MDPpOF.png)
 
 [Downloads](https://github.com/thejordanprice/steam-status/releases)
 
