@@ -1,5 +1,3 @@
-## [Jordan Price](https://github.com/thejordanprice)
-
 I get down on code.
 
     { "hip" : "...", "hip" : "..." }
