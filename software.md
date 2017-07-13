@@ -3,7 +3,6 @@ layout: page
 title: Software
 permalink: /software/
 ---
-
 ### [p2pspider](https://github.com/thejordanprice/p2pspider)
 
 ![Screenshot](http://i.imgur.com/Qhae4So.jpg)
@@ -23,5 +22,3 @@ Description: Steam; the world largest PC gaming avenue occassionally goes down. 
 ![Screenshot](http://i.imgur.com/PD6HiYe.jpg)
  
 Description: Muh small chat app written in node.js with express/mongoose and a ton of other middleware. Comes with single sign on and a few other features. Pretty lightweight. Seems to be pretty simple to use.
-
-* * *
