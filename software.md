@@ -3,8 +3,8 @@ layout: page
 title: Software
 permalink: /software/
 ---
-
 {::nomarkdown}
+
 <div id='github-projects'></div>
 <script type="text/javascript">
 $.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
@@ -16,7 +16,7 @@ $.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
         var star = data[repo].stargazers_count.toString();
         // make a string
         var string = "<p><a href='https://github.com/" + full + "'>" + name + "</a><small>" + star + "</small></p>";
-        element.innerHTML.append(string);
+        element.append(string);
     };
     // console.log(data);
 });
