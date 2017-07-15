@@ -17,7 +17,7 @@ $.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
         var star = data[repo].stargazers_count.toString();
         // make a string
         var string = "<p><a href='https://github.com/" + full + "'>" + name + "</a><small>" + star + "</small></p>";
-        element.append(string);
+        element.innerHTML.append(string);
     };
     // console.log(data);
 });
