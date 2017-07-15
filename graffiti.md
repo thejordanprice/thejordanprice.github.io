@@ -13,11 +13,13 @@ These were from the first run on a shitty camera on a decent Alcatel phone. Next
 {% for image in site.static_files %}
     {% if image.path contains 'images/graffiti' %}
 {::nomarkdown}
-<div class="gallery">
-  <a target="_blank" href="{{ site.baseurl }}{{ image.path }}">
-    <img src="{{ site.baseurl }}{{ image.path }}" width="300" height="200">
-  </a>
-</div>
+<center>
+    <div class="gallery">
+    <a target="_blank" href="{{ site.baseurl }}{{ image.path }}">
+        <img src="{{ site.baseurl }}{{ image.path }}" width="300" height="200">
+    </a>
+    </div>
+</center>
 {:/}
     {% endif %}
 {% endfor %}
