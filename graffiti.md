@@ -21,6 +21,5 @@ These were from the first run on a shitty camera on a decent Alcatel phone. Next
   </a>
 </div>
 {:/}
-# mardown again
     {% endif %}
 {% endfor %}
