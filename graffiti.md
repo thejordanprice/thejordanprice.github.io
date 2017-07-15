@@ -4,8 +4,12 @@ title: Graffiti
 permalink: /graffiti/
 ---
 
-I really enjoy looking at graffiti and am surrounded by trains... So I'm going to start documenting all the art I get to see daily for the worlds viewing pleasure.  I'll rewrite this soon I guess. I'm in a rush.
+I've been documenting graffiti for your viewing pleasure.
 
-## Albums
+## Album
 
-- [ ] Add first gallery.
+{% for image in site.static_files %}
+    {% if image.path contains 'images/graffiti' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %}
