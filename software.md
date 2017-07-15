@@ -17,6 +17,6 @@ $.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
         var string = "<p><a href='https://github.com/" + full_name + "'>" + title + "</a><small>" + stars + "</small></p>";
         element.append(string);
     };
-    console.log(data);
+    // console.log(data);
 });
 </script>
