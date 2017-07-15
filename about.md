@@ -20,6 +20,8 @@ I love graffiti and have always been amazed by it as it went by, so I now photog
 
 You now know more about me.
 
+To be continued.
+
 Never give up.
 
 Love everyone.
