@@ -5,7 +5,6 @@ permalink: /software/
 ---
 
 {::nomarkdown}
-
 <div id='github-projects'></div>
 <script type="text/javascript">
 $.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
