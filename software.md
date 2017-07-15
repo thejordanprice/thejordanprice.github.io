@@ -7,7 +7,7 @@ permalink: /software/
 <div id='github-projects'></div>
 <script type="text/javascript">
     jQuery.githubUser = function(username, callback) {
-    jQuery.getJSON("http://github.com/api/v1/json/" + username + "?callback=?", callback);
+    jQuery.getJSON("https://github.com/api/v1/json/" + username + "?callback=?", callback);
     };
     jQuery.fn.loadRepositories = function(username) {
     this.html("<span>Querying GitHub for repositories...</span>");
