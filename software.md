@@ -9,7 +9,7 @@ permalink: /software/
 $.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
     var element = document.getElementById('github-projects');
     for(let repo in data) {
-        element.append(data[repo].name);
+        element.append(data[repo].name.toString());
     };
     console.log(data);
 });
