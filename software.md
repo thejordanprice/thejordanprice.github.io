@@ -8,7 +8,9 @@ permalink: /software/
 <script type="text/javascript">
 $.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
     var element = document.getElementById('github-projects');
-    element.innerHTML = data;
+    for(let repo in data) {
+        element.append(data[repo]);
+    };
     console.log(data);
 });
 </script>
