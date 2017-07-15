@@ -6,31 +6,9 @@ permalink: /software/
 
 <div id='github-projects'></div>
 <script type="text/javascript">
-    jQuery.githubUser = function(username, callback) {
-    jQuery.getJSON("https://api.github.com/users/" + username + "/repos?callback=?", callback);
-    };
-    jQuery.fn.loadRepositories = function(username) {
-    this.html("<span>Querying GitHub for repositories...</span>");
-    var target = this; 
-    $.githubUser(username, function(data) {
-        var repos = data.user.repositories;
-        sortByNumberOfWatchers(repos);
-        var list = $('<dl/>');
-        target.empty().append(list);
-        $(repos).each(function() {
-        list.append('<dt><a href="'+ this.url +'">' + this.name + '</a></dt>');
-        list.append('<dd>' + this.description + '</dd>');
-        });
-    });
-    function sortByNumberOfWatchers(repos) {
-        repos.sort(function(a,b) {
-        return b.watchers - a.watchers;
-        });
-    }
-    };
-</script>
-<script type="text/javascript">
-  $(function() {
-    $("#github-projects").loadRepositories("thejordanprice");
-  });
+$.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
+    var element = document.getElementById('github-projects');
+    element.innerHTML = data;
+    console.log(data);
+});
 </script>
