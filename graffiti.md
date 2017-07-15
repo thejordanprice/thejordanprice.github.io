@@ -12,8 +12,6 @@ These were from the first run on a shitty camera on a decent Alcatel phone. Next
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/graffiti' %}
-![image]({{ site.baseurl }}{{ image.path }})
-
 {::nomarkdown}
 <div class="gallery">
   <a target="_blank" href="{{ site.baseurl }}{{ image.path }}">
