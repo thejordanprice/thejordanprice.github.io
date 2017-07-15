@@ -4,24 +4,39 @@ title: Software
 permalink: /software/
 ---
 
-This needs redone...
+{::nomarkdown}
 
-## [p2pspider](https://github.com/thejordanprice/p2pspider)
-
-![Screenshot](http://i.imgur.com/Qhae4So.jpg)
-
-Description: Multiple daemon(s) that scrape the p2p dht swarm also an express based bootstrapped front-end connected to the same mongodb service.
-
-## [steam-status](https://thejordanprice.github.io/steam-status)
-
-![Screenshot](https://i.imgur.com/0MDPpOF.png)
-
-[Downloads](https://github.com/thejordanprice/steam-status/releases)
-
-Description: Steam; the world largest PC gaming avenue occassionally goes down. This will constantly pull detailed stats of the top games and what amount of the Steam servers are online.
+<div id='github-projects'></div>
+<script type="text/javascript">
+    jQuery.githubUser = function(username, callback) {
+    jQuery.getJSON("http://github.com/api/v1/json/" + username + "?callback=?", callback);
+    }
     
-## [express-chatrooms](https://github.com/thejordanprice/express-chatrooms)
-
-![Screenshot](http://i.imgur.com/PD6HiYe.jpg)
- 
-Description: Muh small chat app written in node.js with express/mongoose and a ton of other middleware. Comes with single sign on and a few other features. Pretty lightweight. Seems to be pretty simple to use.
+    jQuery.fn.loadRepositories = function(username) {
+    this.html("<span>Querying GitHub for repositories...</span>");
+    
+    var target = this; 
+    $.githubUser(username, function(data) {
+        var repos = data.user.repositories;
+        sortByNumberOfWatchers(repos);
+    
+        var list = $('<dl/>');
+        target.empty().append(list);
+        $(repos).each(function() {
+        list.append('<dt><a href="'+ this.url +'">' + this.name + '</a></dt>');
+        list.append('<dd>' + this.description + '</dd>');
+        });
+    });
+    
+    function sortByNumberOfWatchers(repos) {
+        repos.sort(function(a,b) {
+        return b.watchers - a.watchers;
+        });
+    }
+    };
+</script>
+<script type="text/javascript">
+  $(function() {
+    $("#github-projects").loadRepositories("thejordanprice");
+  });
+</script>
