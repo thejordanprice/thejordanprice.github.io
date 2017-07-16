@@ -51,6 +51,7 @@ It seems that most people put a 10k resistor on pin 1 of the EEPROM, I'm not 100
     8 <--> +3.3v
 
 Again, this is for the Winbond 25q64fv, look at your spec sheet to confirm or change.
+
        ______
     1 |  --  | 8
     2 |      | 7
