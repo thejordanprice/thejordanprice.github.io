@@ -39,6 +39,7 @@ Reboot and you should be able to see the driver loaded and the device /dev/spide
 
 In my case it was the Winbond 25q64fv, which seems to be a very common chip in decent motherboards.
 Of course, this could vary and you should always check your spec sheets for the chip in question.
+It seems that most people put a 10k resistor on pin 1 of the EEPROM, I'm not 100% why; the spec sheet did not specify anything of the sort when I was researching.
 
     1 <--> /CS
     2 <--> DO
@@ -48,6 +49,14 @@ Of course, this could vary and you should always check your spec sheets for the 
     6 <--> CLK
     7 <--> /HOLD
     8 <--> +3.3v
+
+Again, this is for the Winbond 25q64fv, look at your spec sheet to confirm or change.
+       ______
+    1 |  --  | 8
+    2 |      | 7
+    3 |      | 6
+    4 |______| 5
+
 
 ## Finally
 
