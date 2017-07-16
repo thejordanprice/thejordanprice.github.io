@@ -4,6 +4,8 @@ title: Raspberry Pi EEPROM flashing.
 comments: false
 ---
 
+Recovering or even playing around with BIOS is pretty fun and handy. :D
+
 ## Requirements
 
 - [ ] Raspberry Pi
