@@ -26,7 +26,7 @@ Uncomment the following line.
 
 Reboot and you should be able to see the driver loaded and the device /dev/spidev0.0 is available.
 
-## GPIO
+## GPIO Pinout
 
     25 <--> GND
     24 <--> /CS
@@ -48,6 +48,24 @@ Of course, this could vary and you should always check your spec sheets for the 
     6 <--> CLK
     7 <--> /HOLD
     8 <--> +3.3v
+
+## Finally
+
+You can now run the following to look at a chip.
+
+    flashrom -p /dev/spidev0.0 -r filename.bin
+
+Writing to the flash is just as simple.
+
+    flashrom -p /dev/spidev0.0 -w filename.bin
+
+## Examining the dump.
+
+I don't know why you would want to do this besides just looking, not much plaintext is on this level. But if you would like to view it with a hex editor via the terminal you can do something like the following.
+
+    xxd filename.bin >> hex-plaintext.txt
+
+Have fun, don't break your stuff...
 
 ## Album
 
