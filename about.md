@@ -6,7 +6,7 @@ permalink: /about/
 
 I am a guy that tends to push the boundaries as far they can.
 
-I love to program and would love it to end up as an occupation but as of lately it seems very hard to get in the door anywhere. I didn't go to college or anything, straight high school and even at that I have a G.E.D. because I was lazy in school and would sleep instead of do the work I didn't feel I was getting any accomplishment from doing; now I feel I should have done things differently, but shit happens.
+I love to program and would love it to end up as an occupation.
 
 I continue to code and enjoy it and try to get as 'best practice' as I can; with a little help from my friends of course (and google).
 Within the last few years I went from only using my linux terminal to PHP which was a great stepping stone. PHP was fun and still is, but I knew it wasn't exactly 'the future' of anything; though there are many great projects created in PHP as with any language and I myself still have projects running places that I had created in PHP.
