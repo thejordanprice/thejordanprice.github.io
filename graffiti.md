@@ -2,6 +2,7 @@
 layout: page
 title: Graffiti
 permalink: /graffiti/
+comments: true
 ---
 
 I've been documenting graffiti for your viewing pleasure.
