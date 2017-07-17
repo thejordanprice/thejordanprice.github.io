@@ -10,7 +10,6 @@ I've been documenting graffiti for your viewing pleasure.
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/graffiti' %}
-{::nomarkdown}
 <!-- Trigger the Modal -->
 <img id="myImg" src="{{ site.baseurl }}{{ image.path }}" alt="" width="300" height="200">
 <!-- The Modal -->
@@ -38,6 +37,5 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>
-{:/}
     {% endif %}
 {% endfor %}
