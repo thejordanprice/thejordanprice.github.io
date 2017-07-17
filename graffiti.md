@@ -11,7 +11,7 @@ I've been documenting graffiti for your viewing pleasure.
 {% for image in site.static_files %}
     {% if image.path contains 'images/graffiti' %}
 <!-- Trigger the Modal -->
-<img id="myImg" src="{{ site.baseurl }}{{ image.path }}" alt="" width="300" height="200">
+<img class="myImg" id="{{ image.path }}" src="{{ site.baseurl }}{{ image.path }}" alt="" width="300" height="200">
 <!-- The Modal -->
 <div id="myModal" class="modal">
   <!-- The Close Button -->
