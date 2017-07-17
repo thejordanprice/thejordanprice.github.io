@@ -4,19 +4,26 @@ title: Raspberry Pi EEPROM flashing.
 comments: true
 ---
 
-Recovering or even playing around with BIOS is pretty fun and handy. :D
+Recovering or playing around with EEPROM/BIOS is pretty fun and handy. An EEPROM is [E]lectrically [E]rasable and [P]rogrammable [R]ead [O]nly [M]emory. A BIOS is the software stored inside the EEPROM that handles the entire boot process of any computer or fancy device. The reason BIOS software on the chip is important, as it is the first software to take control of your computer when you turn it on. The software has been specifically programmed for the hardware available in the device; and to handle initializing all of the sub-devices (testing if they're working as well; POST) and then find the bootloader upon all successful tests and boot the OS.
+
+Some examples of why you might need to do this.
+
+- Flashing open source BIOS. (coreboot, libreboot)
+- Failed flashing attempts. (bricked motherboard)
+- Soft-modding old school xbox.
+- Curiosity.
 
 ## Requirements
 
-- [ ] Raspberry Pi
-- [ ] 10k Resistor
-- [ ] BIOS/EEPROM
-- [ ] Wire
-- [ ] Breadboard
+- Raspberry Pi
+- 10k Resistor
+- BIOS/EEPROM
+- Wire
+- Breadboard
 
 ## Prep the Pi
 
-You need to enable SPI before anything.
+The Pi; or raspbian I should say, comes with SPI (Serial via GPIO) disabled. Luckily they have made it extremely easy to enable SPI.
 
     sudo nano /boot/config.txt
 
@@ -25,6 +32,8 @@ Uncomment the following line.
     #dtparam=spi=on
 
 Reboot and you should be able to see the driver loaded and the device /dev/spidev0.0 is available.
+
+** Seperate note: A fun thing to do is short the SPI send and recieve. Then you can see the serial you're sending to yourself. That would not be used with this project in any way; just to help someone learn more.
 
 ## GPIO Pinout
 
