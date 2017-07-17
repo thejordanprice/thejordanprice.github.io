@@ -24,4 +24,6 @@ I've been documenting graffiti for your viewing pleasure.
 </div>
 {:/}
 
+{::nomarkdown}
 <script src="/js/lightbox.js">
+{:/}

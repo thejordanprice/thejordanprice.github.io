@@ -85,6 +85,10 @@ Have fun, don't break your stuff...
 
 ## Album
 
+{::nomarkdown}
+<div class='container' style='text-align: center;'>
+{:/}
+
 {% for image in site.static_files %}
     {% if image.path contains 'images/post/2017-7-16' %}
 {::nomarkdown}
@@ -93,4 +97,10 @@ Have fun, don't break your stuff...
     {% endif %}
 {% endfor %}
 
+{::nomarkdown}
+</div>
+{:/}
+
+{::nomarkdown}
 <script src="/js/lightbox.js">
+{:/}
