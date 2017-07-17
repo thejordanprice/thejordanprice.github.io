@@ -21,6 +21,8 @@ I've been documenting graffiti for your viewing pleasure.
   <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
 </div>
+    {% endif %}
+{% endfor %}
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -37,5 +39,3 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>
-    {% endif %}
-{% endfor %}
