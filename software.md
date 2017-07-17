@@ -4,11 +4,10 @@ title: Software
 permalink: /software/
 ---
 
-## Software
+## Stable
 
 [steam-status](/steam-status)
 
-## Github Repositories
+## Beta
 
-[Clicky](/git)
-
+[github repo's](/software/github)

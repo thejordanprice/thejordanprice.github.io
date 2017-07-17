@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Git Repositories
-permalink: /git/
+permalink: /software/github/
 ---
 {::nomarkdown}
 
