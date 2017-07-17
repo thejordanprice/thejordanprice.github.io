@@ -33,7 +33,7 @@ Uncomment the following line.
 
 Reboot and you should be able to see the driver loaded and the device /dev/spidev0.0 is available.
 
-** Seperate note: A fun thing to do is short the SPI send and recieve. Then you can see the serial you're sending to yourself. That would not be used with this project in any way; just to help someone learn more.
+*Seperate note: A fun thing to do is short the SPI send and recieve. Then you can see the serial you're sending to yourself. That would not be used with this project in any way; just to help someone learn more.*
 
 ## GPIO Pinout
 
