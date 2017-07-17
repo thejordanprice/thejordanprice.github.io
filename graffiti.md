@@ -12,7 +12,7 @@ I've been documenting graffiti for your viewing pleasure.
     {% if image.path contains 'images/graffiti' %}
 {::nomarkdown}
 <!-- Trigger the Modal -->
-<img id="myImg" src="{{ site.baseurl }}{{ image.path }}" alt="Image" width="300" height="200">
+<img id="myImg" src="{{ site.baseurl }}{{ image.path }}" alt="" width="300" height="200">
 <!-- The Modal -->
 <div id="myModal" class="modal">
   <!-- The Close Button -->
