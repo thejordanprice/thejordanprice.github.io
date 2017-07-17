@@ -8,6 +8,10 @@ I've been documenting graffiti for your viewing pleasure.
 
 ## Album
 
+{::nomarkdown}
+<div class='container' style='text-align: center;'>
+{:/}
+
 {% for image in site.static_files %}
     {% if image.path contains 'images/graffiti' %}
 {::nomarkdown}
@@ -15,5 +19,7 @@ I've been documenting graffiti for your viewing pleasure.
 {:/}
     {% endif %}
 {% endfor %}
+
+</div>
 
 <script src="/js/lightbox.js">
