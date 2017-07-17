@@ -27,7 +27,7 @@ I've been documenting graffiti for your viewing pleasure.
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
-var img = document.getElementById('myImg');
+var img = document.getElementByClassName('myImg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
