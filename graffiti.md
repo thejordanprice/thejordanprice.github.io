@@ -11,7 +11,7 @@ I've been documenting graffiti for your viewing pleasure.
 {% for image in site.static_files %}
     {% if image.path contains 'images/graffiti' %}
 {::nomarkdown}
-<img src="{{ site.baseurl }}{{ image.path }}" onclick="lightbox(this)" width="250" height="200">
+<img class='lightbox' src="{{ site.baseurl }}{{ image.path }}" onclick="lightbox(this)">
 {:/}
     {% endif %}
 {% endfor %}

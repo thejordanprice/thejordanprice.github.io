@@ -307,5 +307,17 @@ div.desc {
     text-align: center;
 }
 
+.lightbox {
+  width: 100%;
+  max-width: 200px;
+  margin: 5px auto;
+  height: auto;
+  cursor: pointer; 
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+  border-bottom: 20px solid #ffffff;
+}
+
+
 @import "highlights";
 @import "svg-icons";
