@@ -8,6 +8,7 @@ I've been documenting graffiti for your viewing pleasure.
 
 ## Album
 
+<div class='container'>
 {% for image in site.static_files %}
     {% if image.path contains 'images/graffiti' %}
 <div class="image">
@@ -17,3 +18,4 @@ I've been documenting graffiti for your viewing pleasure.
 </div>
     {% endif %}
 {% endfor %}
+</div>
