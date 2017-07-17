@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Git Repositories
+title: Software
 permalink: /software/
 ---
 
