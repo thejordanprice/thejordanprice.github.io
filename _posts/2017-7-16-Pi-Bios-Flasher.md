@@ -90,7 +90,7 @@ Have fun, don't break your stuff...
 {:/}
 
 {% for image in site.static_files %}
-    {% if image.path contains 'images/post/2017-7-16' %}
+    {% if image.path contains '_posts/images/2017-7-16' %}
 {::nomarkdown}
 <img class='lightbox' src="{{ site.baseurl }}{{ image.path }}" onclick="lightbox(this)">
 {:/}
