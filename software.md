@@ -4,7 +4,9 @@ title: Software
 permalink: /software/
 ---
 
-[steam-status](/steam-status)
+I'm going to make a fancy page for my more stable projects.
+
+It will be here, until then.
 
 
 [github repo's](/software/github)
