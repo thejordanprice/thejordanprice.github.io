@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  font-weight: bolder;
   a {
     color: inherit;
   }
@@ -202,7 +201,7 @@ pre {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: bolder;
   font-size: 28px;
   letter-spacing: 1px;
 }
