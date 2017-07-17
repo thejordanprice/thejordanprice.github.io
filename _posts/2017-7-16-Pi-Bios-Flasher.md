@@ -35,6 +35,8 @@ Reboot and you should be able to see the driver loaded and the device /dev/spide
 
 ## GPIO Pinout
 
+You will need to grab the jumper wires and get the following 6 pins hooked up.
+
     25 <--> GND
     24 <--> /CS
     23 <--> CLK
@@ -75,11 +77,15 @@ Writing to the flash is just as simple.
 
     flashrom -p /dev/spidev0.0 -w filename.bin
 
-## Examining the dump.
+## Examining the dump
 
 I don't know why you would want to do this besides just looking, not much plaintext is on this level. If you would like to view it with a hex editor via the terminal you can do something like the following.
 
     xxd filename.bin >> hex-plaintext.txt
+
+## Final notes
+
+Following this and examining the spec sheet for the chip in question I feel that about anyone should be able to write an EEPROM.
 
 Have fun, don't break your stuff...
 
