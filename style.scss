@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: #222222;
+	background: $white;
   font: 18px/1.4 $helvetica;
-  color: #FAFAFA;
+  color: $darkGray;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #FAFAFA;
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: $lightGray;
+    color: inherit;
   }
 }
 
@@ -117,7 +117,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $lightGray;
+  color: $gray;
 }
 
 // Specify the color of the selection
@@ -193,7 +193,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $lightGray;
+  color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -226,14 +226,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $white;
+      color: $blue;
     }
   }
 }
@@ -312,11 +312,10 @@ div.desc {
   max-width: 200px;
   margin: 5px auto;
   height: auto;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 10px;
-  border: 5px solid #ffffff;
+  border: 3px solid #ffffff;
 }
-
 
 @import "highlights";
 @import "svg-icons";
