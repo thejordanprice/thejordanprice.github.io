@@ -102,5 +102,5 @@ Have fun, don't break your stuff...
 {:/}
 
 {::nomarkdown}
-<script src="/js/lightbox.js">
+<script src="/js/lightbox.js"></script>
 {:/}

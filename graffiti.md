@@ -25,5 +25,5 @@ I've been documenting graffiti for your viewing pleasure.
 {:/}
 
 {::nomarkdown}
-<script src="/js/lightbox.js">
+<script src="/js/lightbox.js"></script>
 {:/}
