@@ -23,6 +23,7 @@ I've been documenting graffiti for your viewing pleasure.
 </div>
     {% endif %}
 {% endfor %}
+
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
