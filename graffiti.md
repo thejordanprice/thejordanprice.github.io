@@ -20,6 +20,8 @@ I've been documenting graffiti for your viewing pleasure.
     {% endif %}
 {% endfor %}
 
+{::nomarkdown}
 </div>
+{:/}
 
 <script src="/js/lightbox.js">
