@@ -29,23 +29,26 @@ I've been documenting graffiti for your viewing pleasure.
 <script src="/js/lightbox.js"></script>
 <script>
 var images = document.getElementsByClassName('lightbox');
+var loaded = false;
 for (let image in images) {
     if (images[image]) {
         var metadata = [];
         image = images[image];
         metadata.src = image.src;
         metadata.strings = metadata.src.split('/');
-        metadata.folder = metadata.strings[4];
+        metadata.folder = metadata.strings[4].toString();
         metadata.filename = metadata.strings.pop() || metadata.strings.pop();
         metadata.parts = metadata.filename.split('.');
-        metadata.name = metadata.parts[0];
-        metadata.ext = metadata.parts[1];
+        metadata.name = metadata.parts[0].toString();
+        metadata.ext = metadata.parts[1].toString();
         metadata.thumb = metadata.name + "_tn." + metadata.ext;
         image.src = "/images/thumbnails/" + metadata.folder + "/" + metadata.thumb;
         window.addEventListener("load", function(){
-            image.src = metadata.src;
+            loaded = true;
         });
-        /* console.log(image.src); */
+        if (loaded = true) {
+            image.src = metadata.src;
+        };
     };
 };
 </script>
