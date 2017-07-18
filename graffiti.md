@@ -35,7 +35,7 @@ for (let image in images) {
         var metadata = [];
         image = images[image];
         metadata.src = image.src;
-        metadata.strings = metadata.src.split('/');
+        metadata.strings = image.src.split('/');
         metadata.folder = metadata.strings[4].toString();
         metadata.filename = metadata.strings.pop() || metadata.strings.pop();
         metadata.parts = metadata.filename.split('.');
