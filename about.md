@@ -13,6 +13,9 @@ Within the last few years I went from only using my linux terminal to PHP which 
 
 I soon moved on to learning JavaScript because a buddy had been going hard as a mofo in node.js for a while. I got kinda jealous about how well everything scaled great in different ways depending on your code. The fact it is also JavaScript driven helps me keep doing full stack setups in one language; front-end, back-end, middleware, doesn't matter, less stressful on the brain. So I started doing hello world node.sj apps and what have you. Now I have created many highly scalable webapps in node.js using express and other awesome middleware. It just takes time and a ton of bits of research (usually google: "[insert lang] the right way") or "lambda in python". lol.
 
+<img src="https://avatars2.githubusercontent.com/u/23624596?v=3&s=400" style="width: 250px; float: right; padding: 30px;" onclick="lightbox(this);">
+<script src="/js/lightbox.js"></script>
+
 Since then, I've realized that you can pretty much code anything if you put your mind to it. Being a hacker at heart I ended up finding horrid code and configurations on installations across networks and several devices, created a few proof of concept exploits and documented the vulnerabilities. Not all of them have been published, but some that I feel safe are publicly available in my github.
 
 While I'm not coding, I would usually be fathering my daughter or at work slaving away at a place that has nothing to do with IT at all.
@@ -29,6 +32,10 @@ Never give up.
 
 Love everyone.
 
+{::nomarkdown}
+
+</div>
+{:/}
 
 ### Contact me
 
