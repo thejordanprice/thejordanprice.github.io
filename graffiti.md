@@ -53,7 +53,7 @@ for (let image in images) {
         if(sleep(3500) == true){
             image.src = metadata.src;
         };
-        console.log(image.src);
+        /* console.log(image.src); */
     };
 };
 </script>
