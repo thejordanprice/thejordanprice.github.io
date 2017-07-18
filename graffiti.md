@@ -28,14 +28,6 @@ I've been documenting graffiti for your viewing pleasure.
 {::nomarkdown}
 <script src="/js/lightbox.js"></script>
 <script>
-function sleep (ms) {
-    var unixtime_ms = new Date().getTime();
-    while(new Date().getTime() < unixtime_ms + ms) {
-        /* do nothing */
-    } else {
-        return true
-    };
-};
 var images = document.getElementsByClassName('lightbox');
 for (let image in images) {
     if (images[image]) {
@@ -50,9 +42,9 @@ for (let image in images) {
         metadata.ext = metadata.parts[1];
         metadata.thumb = metadata.name + "_tn." + metadata.ext;
         image.src = "/images/thumbnails/" + metadata.folder + "/" + metadata.thumb;
-        if(sleep(3500) == true){
+        window.addEventListener("load", function(){
             image.src = metadata.src;
-        };
+        });
         /* console.log(image.src); */
     };
 };
