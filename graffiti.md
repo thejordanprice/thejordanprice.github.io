@@ -28,6 +28,7 @@ I've been documenting graffiti for your viewing pleasure.
 {::nomarkdown}
 <script src="/js/lightbox.js"></script>
 <script>
+/*
 var images = document.getElementsByClassName('lightbox');
 var loaded = false;
 for (let image in images) {
@@ -51,6 +52,7 @@ for (let image in images) {
         };
     };
 };
+*/
 </script>
 {:/}
 

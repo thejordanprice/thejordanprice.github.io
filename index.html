@@ -2,4 +2,44 @@
 layout: default
 ---
 
-New index page in the works instead of the blog page.
+<style>
+body {
+  transition: background 0.5s ease-in-out;
+  color: white;
+}
+</style>
+
+<script>
+var colors = [
+  '#d0c2e1',
+  '#bdb6d0',
+  '#abaabe',
+  '#989ead',
+  '#86939c'
+];
+
+for (let color in colors) {
+  setInterval(function() {
+    document.body.style.background = colors[5];
+    setTimeout(function() {
+      document.body.style.background = colors[0]
+    }, 2500);
+    setTimeout(function() {
+      document.body.style.background = colors[1]
+    }, 2000);
+    setTimeout(function() {
+      document.body.style.background = colors[2]
+    }, 2500);
+    setTimeout(function() {
+      document.body.style.background = colors[3]
+    }, 2000);
+    setTimeout(function() {
+      document.body.style.background = colors[4]
+    }, 2500);
+    setTimeout(function() {
+      document.body.style.background = colors[5]
+    }, 2000);
+  }, 250);
+};
+
+</script>
