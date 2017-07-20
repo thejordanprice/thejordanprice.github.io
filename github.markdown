@@ -26,7 +26,7 @@ $.getJSON('//api.github.com/users/thejordanprice/repos',{},function(data){
         var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         var day = date.toLocaleDateString("en-US",options);
         // make a string
-        var string = "<div class='container'><div><a href='https://github.com/" + full + "'>" + full + "</a></div><div style='font-size: small;'>" + desc + "</div><div style='font-size: small;'>Stars: " + star + " Watchers: " + watc + "</div><pre style='font-size: small;'>Clone: " + clon +"</pre><div style='font-size: small; text-align: right;'>Latest: " + day + "</div></div><br>";
+        var string = "<div class='container'><div><a href='https://github.com/" + full + "'>" + full + "</a></div><div style='font-size: small;'>" + desc + "</div><div style='font-size: small;'>Stars: " + star + " Watchers: " + watc + "</div><pre style='font-size: small;'>Clone: " + clon +"</pre><div style='font-size: small;'>Latest: " + day + "</div></div><br>";
         element.innerHTML += string;
     };
     // console.log(data);
