@@ -3,6 +3,7 @@ layout: page
 permalink: /software
 header-img: "img/contact-bg.jpg"
 description: "My github repositories."
+title: Github
 ---
 
 ## Github
