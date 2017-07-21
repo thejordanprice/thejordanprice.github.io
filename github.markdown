@@ -6,7 +6,7 @@ description: "My github repositories."
 title: Github
 ---
 
-## Github
+### Github
 
 {::nomarkdown}
     <div id='github-projects'></div>

@@ -6,12 +6,12 @@ description: "Blog of a tech dude, that does things."
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.excerpt %}
-        <h3 class="post-subtitle">
-            {{ post.excerpt }}
+        <h3 class="post-title">            {{ post.title }}
         </h3>
+        {% if post.excerpt %}
+        <p class="post-subtitle">
+            {{ post.excerpt }}
+        </p>
         {% endif %}
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
