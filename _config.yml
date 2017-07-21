@@ -1,15 +1,15 @@
 # Site settings
 title: Jordan Price
 header-img: "images/graffiti/IMG_20170713_133424.jpg"
-email: 
+email: thejordanprice@gmx.com
 copyright_name: Jordan Price
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Father, programmer, security researcher, musician, bit hoarder."
 baseurl: ""
 url: ""
-twitter_username: 
-github_username:  
-facebook_username:  
-email_username: 
+twitter_username: ajordanprice
+github_username: thejordanprice
+facebook_username: jordan.price.12720
+email_username: thejordanprice@gmx.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
