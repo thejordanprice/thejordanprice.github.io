@@ -13,15 +13,14 @@ Reasons to flash / do this.
 - Soft-modding old school xbox.
 - Curiosity.
 
-## Requirements
+#### Requirements
 
 - Raspberry Pi
-- 10k Resistor
 - BIOS/EEPROM
-- Wire
-- Breadboard
+- Jumper Wires
+- Solderless Breadboard
 
-## Prep the Pi
+#### Prep the Pi
 
 The Pi, or raspbian, comes with SPI (Serial via GPIO) disabled. Luckily they have made it extremely easy to enable SPI.
 
@@ -33,7 +32,7 @@ Uncomment the following line.
 
 Reboot and you should be able to see the driver loaded and the device /dev/spidev0.0 is available.
 
-## GPIO Pinout
+#### GPIO Pinout
 
 You will need to grab the jumper wires and get the following 6 pins hooked up.
 
@@ -44,7 +43,7 @@ You will need to grab the jumper wires and get the following 6 pins hooked up.
     19 <--> DI
     17 <--> 3.3v (/HOLD, /WP)
 
-## BIOS/EEPROM Pinout
+#### BIOS/EEPROM Pinout
 
 In my case it was the Winbond 25q64fv, which seems to be a very common chip in decent motherboards.
 Of course, this could vary and you should always check your spec sheets for the chip in question.
@@ -67,7 +66,7 @@ Again, this is for the Winbond 25q64fv, look at your spec sheet to confirm or ch
     4 |______| 5
 
 
-## Finally
+#### Finally
 
 You can now run the following to look at a chip.
 
@@ -77,19 +76,19 @@ Writing to the flash is just as simple.
 
     flashrom -p /dev/spidev0.0 -w filename.bin
 
-## Examining the dump
+#### Examining the dump
 
 I don't know why you would want to do this besides just looking, not much plaintext is on this level. If you would like to view it with a hex editor via the terminal you can do something like the following.
 
     xxd filename.bin >> hex-plaintext.txt
 
-## Final notes
+#### Final notes
 
 Following this and examining the spec sheet for the chip in question I feel that about anyone should be able to write an EEPROM.
 
 Have fun, don't break your stuff...
 
-## Album
+#### Album
 
 {::nomarkdown}
 <div style='width:100%; text-align: center;'>

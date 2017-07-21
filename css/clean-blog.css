@@ -7,7 +7,6 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: #404040;
 }
 p {
   line-height: 1.5;
@@ -135,7 +134,7 @@ hr.small {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #808080;
+  background-color: #fafafa;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -212,7 +211,7 @@ hr.small {
   }
 }
 .post-preview > a {
-  color: #404040;
+  color: #fafafa;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
