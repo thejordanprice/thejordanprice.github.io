@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /software/github/
+permalink: /software
 header-img: "img/contact-bg.jpg"
 description: "My github repositories."
 ---

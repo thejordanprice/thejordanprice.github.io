@@ -2,7 +2,6 @@
 layout: page
 title: Graffiti
 permalink: /graffiti/
-header-img: "images/graffiti/IMG_20170713_133512.jpg"
 description: "I've been documenting graffiti for your viewing pleasure."
 ---
 
