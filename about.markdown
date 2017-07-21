@@ -6,6 +6,8 @@ description: "Have questions? I have answers (maybe)."
 header-img: "images/graffiti/IMG_20170713_133602.jpg"
 ---
 
+## About
+
 I am a guy that tends to push the boundaries as far they can.
 
 I love to program and would love it to end up as an occupation.

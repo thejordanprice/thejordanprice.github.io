@@ -1,3 +1,12 @@
+body {
+  padding-top: 60px;
+}
+
+.navbar {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
 .lightbox {
   width: 100%;
   max-width: 200px;
@@ -8,26 +17,6 @@
   border: 3px solid #ffffff;
 }
 
-.navbar {
-  background-color: #000000;
-  filter: opacity(75%);
-}
-
-header.intro-header {
-  filter: saturate(400%) grayscale(50%) brightness(130%);
-}
-
-.site-heading h1 {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}
-
-.post-heading h1 {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}
-
-.subheading {
-  color: #f4f4f4;
-  font-weight: bolder;
+.navbar-brand {
+  color: #ffffff;
 }

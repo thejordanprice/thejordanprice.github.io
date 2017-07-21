@@ -6,9 +6,8 @@ header-img: "images/graffiti/IMG_20170713_133512.jpg"
 description: "I've been documenting graffiti for your viewing pleasure."
 ---
 
-## Album
-
+## The Album
 {::nomarkdown}
-{% for image in site.static_files %}{% if image.path contains 'images/graffiti' %}<img class='lightbox' src="{{ site.baseurl }}{{ image.path }}" onclick="lightbox(this)">{% endif %}{% endfor %}
+<div style='width: 100%; text-align: left;'>{% for image in site.static_files %}{% if image.path contains 'images/graffiti' %}<img class='img-responsive lightbox' src="{{ site.baseurl }}{{ image.path }}" onclick="lightbox(this)">{% endif %}{% endfor %}</div>
 <script src="/js/lightbox.js"></script>
 {:/}
