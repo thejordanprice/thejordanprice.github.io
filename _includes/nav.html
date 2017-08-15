@@ -1,19 +1,16 @@
-<nav class="navbar navbar-default navbar-custom navbar-static-top">
-    <div class="container-fluid">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" style='color: #fff;' href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/" style='color: #fff;'>Home</a></li>{% for page in site.pages %}{% if page.title %}{% if page.url != '/404.html' %}
-                <li><a href="{{ page.url | prepend: site.baseurl }}" style='color: #fff;'>{{ page.title }}</a></li>{% endif %}{% endif %}{% endfor %}
-            </ul>
-        </div>
-    </div>
+<!-- navigation -->
+<nav>
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">Jordan Price<i class="material-icons">face</i></a>
+    <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+	    <li><a href="{{ site.baseurl }}/" style='color: #fff;'>Home</a></li>{% for page in site.pages %}{% if page.title %}{% if page.url != '/404.html' %}
+	    <li><a href="{{ page.url | prepend: site.baseurl }}" style='color: #fff;'>{{ page.title }}</a></li>{% endif %}{% endif %}{% endfor %}
+    </ul>
+    <ul class="side-nav" id="mobile-menu">
+      <li><a href="/" class="mobile-brand-logo">Jordan Price</a></li>
+        <li><a href="{{ site.baseurl }}/" style='color: #000;'>Home</a></li>{% for page in site.pages %}{% if page.title %}{% if page.url != '/404.html' %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}" style='color: #000;'>{{ page.title }}</a></li>{% endif %}{% endif %}{% endfor %}
+    </ul>
+  </div>
 </nav>

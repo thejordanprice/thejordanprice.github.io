@@ -23,16 +23,17 @@ layout: default
                 {{ content }}
 
                 <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
+                    <!-- pagination -->
+				    <div class="containter" style="text-align:center;">
+				    <ul class="pagination">
+				    {% if page.previous.url %}
+				        <li class="waves-effect"><a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"><i class="material-icons">chevron_left</i> Previous Post</a></li>
+			        {% endif %}
+			        {% if page.next.url %}
+				        <li class="waves-effect"><a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">Next Post <i class="material-icons">chevron_right</i></a></li>
+				      </ul>
+				    {% endif %}
+				    </div>
                 </ul>
             </div>
         </div>
